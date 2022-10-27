@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+$soft-orange: #e9ab53;
+$soft-red: #f15e50;
+$off-white: #fffdfa;
+$grayish-blue: rgb(197, 198, 206);
+$dark-grayish-blue: #5d5f79;
+$very-dark-blue: rgb(0, 0, 26);
+
+$font-size: 15px;
+$font-overpass: 'Inter', sans-serif;
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/*** some base definitions from https://piccalil.li/blog/a-modern-css-reset/ ***/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
